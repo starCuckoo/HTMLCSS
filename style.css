@@ -1,0 +1,60 @@
+#container{
+    border:2px solid;
+    padding: 10px;
+  }
+  #heading{
+      background: linear-gradient(rgb(189, 233, 189),rgb(7, 206, 7));
+      color: royalblue;
+      text-align: center;
+      height: 80px;
+      padding-top: 5px;
+      box-sizing: border-box;
+  }
+.coursecontent{
+    font-family: Arial;
+    color: rgb(243, 13, 109);
+    padding: 20px;
+    background: linear-gradient(rgb(223, 229, 230),rgb(63, 220, 231));
+    height:1400px;
+}
+.coursecontent h2{
+    font-size:30px;
+}
+.modules ol a{
+    text-decoration: none;
+    /* display: inline; */
+}
+.modules ol li{
+    padding:10px 10px;
+    list-style-type: none;
+    width: 200px;
+}
+.module{
+    background: linear-gradient(rgb(223, 224, 219),rgb(203, 233, 34));
+    margin:5px;
+}
+.modules ol a:hover, .modules ol a:active{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#title{
+    background: linear-gradient(rgb(223, 224, 219),rgb(203, 233, 34));
+    /* margin:5px; */
+    padding: 10px;
+    height:40px;
+    width: 600px;
+
+}
+.chapters ul li{
+    list-style-type: none;
+    display: inline;
+    padding:10px;
+    border-right: 2px solid;
+    font-size: 20px;
+}
+
+.Chapter{
+    background: linear-gradient(rgb(223, 224, 219),rgb(238, 120, 150));
+    color: rgb(111, 0, 255);
+}
